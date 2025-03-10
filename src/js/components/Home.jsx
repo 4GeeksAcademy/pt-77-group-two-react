@@ -5,6 +5,8 @@ const Home = () => {
 		<div className="text-center">
 			{/*  navbar */}
 			
+			{/*  Carousel */}
+
 			{/*  jumbotron */}
 			
 			{/*  cards */}
