@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Cards from "./Cards.jsx";
 
 const Home = () => {
 	return (
