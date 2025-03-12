@@ -8,16 +8,18 @@ const Home = () => {
 	return (
 		<div className="text-center mx-auto">
 			{/*  navbar */}
+
 			<Navbar title={"AniMedia"} />
+
 			{/*  Carousel Joseph */}
 			< Carousel 
-			img1={"https://assets-prd.ignimgs.com/2022/09/22/demonslayer-1663870772245.jpg"}
-			img2={"https://assets-prd.ignimgs.com/2022/09/28/topanime-blogroll-1664407530748.jpg"}
-			img3={"https://greenhouse.hulu.com/app/uploads/sites/11/MHA_S5_program_tile-1-792x469.jpg"}
+				img1={"https://assets-prd.ignimgs.com/2022/09/22/demonslayer-1663870772245.jpg"}
+				img2={"https://assets-prd.ignimgs.com/2022/09/28/topanime-blogroll-1664407530748.jpg"}
+				img3={"https://greenhouse.hulu.com/app/uploads/sites/11/MHA_S5_program_tile-1-792x469.jpg"}
 			/>
 
 			{/*  jumbotron */}
-			
+
 			{/*  cards */}
 			<div className="d-flex mx-auto w-50 mt-5 ">
 				<Cards img={"https://m.media-amazon.com/images/M/MV5BYTIwYzk3YmQtZmMwNS00ZDAwLTk5Y2MtOTEwODFlZmExMzliXkEyXkFqcGc@._V1_.jpg"} 
@@ -36,9 +38,21 @@ const Home = () => {
 				title={"Delicious in Dungeon"} content={"Can sisters be reincarnated from dragon poop? Laios and his delve into an endless dungeon in search of his fallen sister, fighting monsters, starvation, and corruption."}
 				btton={"You can eat that?!"}/>
 			</div>
-			{/*  footer */}
 
-			
+			{/*  footer */}
+			<div className="card text-center">
+				<div className="card-header">
+					Featured
+				</div>
+				<div className="card-body">
+					<h5 className="card-title">Group Two "Landing Page with React" Project</h5>
+					<p className="card-text">Made by Evens A. , Byron R. , Joseph D. , and Jermaine W.</p>
+					<a href="#" className="btn btn-primary">4Geeks</a>
+				</div>
+				<div className="card-footer text-body-secondary">
+					2 days ago
+				</div>
+			</div>
 		</div>
 	);
 };
